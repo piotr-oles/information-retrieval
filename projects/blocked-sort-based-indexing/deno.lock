@@ -17,7 +17,26 @@
       }
     }
   },
-  "remote": {},
+  "redirects": {
+    "https://deno.land/x/xmlp/mod.ts": "https://deno.land/x/xmlp@v0.3.0/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.138.0/_util/assert.ts": "e94f2eb37cebd7f199952e242c77654e43333c1ac4c5c700e929ea3aa5489f74",
+    "https://deno.land/std@0.138.0/bytes/bytes_list.ts": "67eb118e0b7891d2f389dad4add35856f4ad5faab46318ff99653456c23b025d",
+    "https://deno.land/std@0.138.0/bytes/equals.ts": "fc16dff2090cced02497f16483de123dfa91e591029f985029193dfaa9d894c9",
+    "https://deno.land/std@0.138.0/bytes/mod.ts": "763f97d33051cc3f28af1a688dfe2830841192a9fea0cbaa55f927b49d49d0bf",
+    "https://deno.land/std@0.138.0/fmt/colors.ts": "30455035d6d728394781c10755351742dd731e3db6771b1843f9b9e490104d37",
+    "https://deno.land/std@0.138.0/io/buffer.ts": "bd0c4bf53db4b4be916ca5963e454bddfd3fcd45039041ea161dbf826817822b",
+    "https://deno.land/std@0.138.0/streams/conversion.ts": "712585bfa0172a97fb68dd46e784ae8ad59d11b88079d6a4ab098ff42e697d21",
+    "https://deno.land/std@0.138.0/testing/_diff.ts": "029a00560b0d534bc0046f1bce4bd36b3b41ada3f2a3178c85686eb2ff5f1413",
+    "https://deno.land/std@0.138.0/testing/_format.ts": "0d8dc79eab15b67cdc532826213bbe05bccfd276ca473a50a3fc7bbfb7260642",
+    "https://deno.land/std@0.138.0/testing/asserts.ts": "dc7ab67b635063989b4aec8620dbcc6fa7c2465f2d9c856bddf8c0e7b45b4481",
+    "https://deno.land/x/xmlp@v0.3.0/context.ts": "d61d0bd69a5c71b9e39507540c216e15c26e72509556028a273d006befa4f188",
+    "https://deno.land/x/xmlp@v0.3.0/deps.ts": "2b4a6a3c07340f89ba5d50af8b25d2ac385f0d958426bf7fed2f09cc5e011895",
+    "https://deno.land/x/xmlp@v0.3.0/handler.ts": "65c0b277b2e1a2cd8c59390d9fabc94b1b9a21b91000f3ad232cf16d002a591e",
+    "https://deno.land/x/xmlp@v0.3.0/mod.ts": "1b0d3c7d4e0824ff3d3d5fc90d697ceb46a5dff1315e3a9b8c3cc20aa31753dc",
+    "https://deno.land/x/xmlp@v0.3.0/parser.ts": "e81318064aaec76f181d14d41d923d9d73c80cefddb56eeef34c05ac2aca3378"
+  },
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1"
